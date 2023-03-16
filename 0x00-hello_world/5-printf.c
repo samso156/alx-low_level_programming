@@ -1,8 +1,9 @@
 #include<stdio.h>
 /**
-  *main - A function to print a text
-  *Return : Always 0 for success
-  */
+ *main - A function to print a text
+ *
+ *Return: Always 0 for success
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");

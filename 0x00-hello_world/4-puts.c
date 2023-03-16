@@ -1,7 +1,8 @@
 #include<stdio.h>
 /**
  *main - A sample function to print a text
- *Return : Always 0 for success
+ *
+ *Return: Always 0 for success
  */
 int main(void)
 {
