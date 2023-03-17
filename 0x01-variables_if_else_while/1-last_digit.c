@@ -6,6 +6,7 @@
 *
 * Description: This program prints the last digit of the random number
 *
+* Return: Always 0 for success
 */
 int main(void)
 {
