@@ -1,13 +1,21 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
+*_memset - The _memset() function fills
+* the first n bytes of the memory area
+* pointed to by s with the constant byte b
+*@s:target
+*@b: constant byte
+*@n:number of byte
+*Return: returns new value of target
+*/
+
+char *_memset(char *s, char b, unsigned int n)
 {
-	return (write(1, &c, 1));
+	while (n)
+	{
+		s[n - 1] = b;
+		n--;
+	}
+	return (s);
+
 }
