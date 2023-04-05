@@ -1,9 +1,7 @@
 #include "main.h"
 /**
-* main - check the code
-*
-* Description : A function that prints a
-* @s:character to be printed
+* _puts_recursion - prints a string followed by a new line
+*@s:character to be printed
 * string, followed by a new line.
 * Return: Always 0.
 */
