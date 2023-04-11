@@ -37,7 +37,7 @@ char **strtow(char *str)
 				{
 					while (j-- >= 0)
 						free(split[j]);
-						free(split);
+					free(split);
 					return (NULL);
 				}
 			}
